@@ -1,7 +1,6 @@
-package com.jobseekmed.demo.model.Enum;
+package com.jobseekmed.demo.model;
 
 
-import com.jobseekmed.demo.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,6 +19,6 @@ public class Admin extends User {
     }
 
     public void removeJob(Job job){
-        
+
     }
 }
