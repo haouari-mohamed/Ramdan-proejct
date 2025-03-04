@@ -1,4 +1,4 @@
-package com.jobseekmed.demo.model.Enum;
+package com.jobseekmed.demo.model;
 
 
 import lombok.AllArgsConstructor;
@@ -15,7 +15,7 @@ public class JobSeeker {
     private String cv;
     private List<String> skills;
 
-   
+
 
 
 }
