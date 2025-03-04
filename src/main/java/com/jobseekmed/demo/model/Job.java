@@ -1,5 +1,7 @@
 package com.jobseekmed.demo.model;
 
+
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -7,12 +9,19 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 public class Job {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
     private String description;
     private String location;
     private Double salary;
+
+    @ManyToOne
+    @JoinColumn(name = "posted_by")
     private Employee postedBy;
 
     public void post() {

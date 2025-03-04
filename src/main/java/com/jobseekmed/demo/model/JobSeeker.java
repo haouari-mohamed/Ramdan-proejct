@@ -21,7 +21,14 @@ public class JobSeeker extends User {
     private List<String> skills;
 
 
-    public 
+    public void applyForJob(){
+
+    }
+    public List<Referral> viewReferrals() {
+        return null;
+    }
+}
+
 
 
 
