@@ -1,6 +1,7 @@
 package com.jobseekmed.demo.model;
 
 
+import com.jobseekmed.demo.model.Enum.UserRole;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
@@ -27,5 +28,8 @@ public class JobSeeker extends User {
     public List<Referral> viewReferrals() {
         return null;
     }
+
+
+
 }
 
