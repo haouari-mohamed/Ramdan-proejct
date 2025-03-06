@@ -3,9 +3,7 @@ package com.jobseekmed.demo.model;
 
 import com.jobseekmed.demo.model.Enum.UserRole;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
